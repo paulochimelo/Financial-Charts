@@ -1,0 +1,26 @@
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.field__label,
+.field__value {
+    font-size: 1rem;
+}
+
+.field__label {
+    color: var(--text-primary-color);
+}
+
+.field__value {
+    color: var(--text-secondary-color);
+}
+
+.field__value--gain {
+    color: var(--text-positive-color);
+}
+
+.field__value--loss {
+    color: var(--text-error-color);
+}

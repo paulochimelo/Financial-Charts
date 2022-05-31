@@ -1,0 +1,30 @@
+.app-header {
+    width: 100%;
+    min-height: 5rem;
+    background-color: var(--bg-header-color);
+    box-shadow: 0 0.1rem 0.1rem var(--shadow-color);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.app-logo {
+    color: var(--text-primary-color);
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.12rem;
+    opacity: 0%;
+
+    animation-delay: 800ms;
+    animation-name: slideIn;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 500ms;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+
+.app-logo:hover {
+    cursor: pointer;
+}

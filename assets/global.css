@@ -1,0 +1,72 @@
+html,
+body,
+p,
+div,
+input,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Poppins';
+}
+
+p,
+div,
+input,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font-size: 1rem;
+}
+
+p,
+div,
+input,
+button,
+label {
+    color: var(--text-secondary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-primary-color);
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    color: var(--text-error-color);
+    margin-top: 0.25rem;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}

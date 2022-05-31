@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #02040f;
+    --bg-header-color: #22007c;
+    --bg-footer-color: #110B14;
+    --bg-primary-color: #AA1155;
+    --bg-secondary-color: #1D7874;
+    --bg-scrollbar-color: #1D78746e;
+    --bg-scrollbar-hover-color: #1D7874;
+    --bg-card-color: #1a1423;
+
+    --text-primary-color: #f3f3f3;
+    --text-secondary-color: #aaaaaa;
+    --text-error-color: #f00f00;
+    --text-positive-color: #4caf50;
+    --text-primary-alt-color: #939393;
+    --text-secondary-alt-color: #777777;
+
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}

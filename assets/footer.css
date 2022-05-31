@@ -1,0 +1,18 @@
+.app-footer {
+    background-color: var(--bg-footer-color);
+    width: 100%;
+    color: var(--text-secondary-alt-color);
+}
+
+.app-footer-container {
+    margin: 0 auto;
+    padding: 2rem 0;
+    max-width: 60rem;
+    text-align: left;
+}
+
+.app-footer-info {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-primary-alt-color);
+}
